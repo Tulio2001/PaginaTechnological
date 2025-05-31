@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Technological Articles</title>
+  
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg,  #223ad6,  #12a1cc);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .welcome-container {
+      text-align: center;
+      padding: 40px;
+      border-radius: 16px;
+      background-color: rgba(255, 255, 255, 0.05);
+      box-shadow: 0 8px 16px rgba(19, 19, 13, 0.5);
+      animation: fadeIn 1.5s ease;
+    }
+
+    .welcome-container h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #7cfff0;
+    }
+
+    .welcome-container p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      background-color: #00ffe1;
+      color: #1f1f1f;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #00c9b3;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+  
+
+    
+  
+</head>
+<body>
+  <div class="welcome-container">
+    <h1>¡Bienvenido a TecnoShop!</h1>
+    <h3 class="hero__title">¡Bienvenido a Technological Articles!<h3>
+                 <br> Tu destino ideal para descubrir lo último en tecnología.
+            <br> En nuestra tienda encontrarás una amplia selección de artículos tecnológicos de vanguardia, desde smartphones, laptops y accesorios inteligentes, hasta dispositivos para el hogar conectado y mucho más.
+            <br>Nos apasiona la innovación y trabajamos para ofrecerte productos de alta calidad, a precios competitivos y con un servicio confiable.
+<br>
+<br>💡 Explora, compara y encuentra la tecnología que se adapta a tu estilo de vida.
+<br>📦 Envíos rápidos, pagos seguros y atención personalizada.
+
+<br>Gracias por elegirnos.
+<br> ¡Conéctate al futuro con nosotros!
+
+</p>
+    <button class="btn" onclick="goToStore()">Entrar a la tienda</button>
+  </div>
+
+  <script>
+    function goToStore() {
+      // Aquí puedes redirigir a la página principal de tu tienda
+      window.location.href = "file:///C:/Proyectos/PagWeb/productos.html"; // Cambia esto según la ruta real
+    }
+  </script>
+</body>
+</html>
